@@ -7,5 +7,5 @@
 - 👍 I’m currently learning React
 -->
     ⏬
-## Snake Eating my Cont.s
+## 🐍
 ![snake_gif](https://github.com/boranyildirim/boranyildirim/blob/output/github-contribution-grid-snake.svg)
