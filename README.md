@@ -1,5 +1,5 @@
 ### Hi there 👋
-##Here is funnier things about work.
+##Here is enjoyable things about work.
 ##Hey snake! Eat them all!...
     
 <!--
