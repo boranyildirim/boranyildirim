@@ -28,3 +28,12 @@ jobs:
           github_user_name: boranyildirim
           svg_out_path: dist/github-contribution-grid-snake.svg
 
+      - uses: docker/build-push-action@v2
+        id: docker_build
+        with:
+          push: ${{ github.ref == 'refs/heads/master' }}
+          tags: |
+            platane/snk:latest
+            platane/snk:${{ github.sha }}
+          file: packages/action/Dockerfile
+          context: packages/action
